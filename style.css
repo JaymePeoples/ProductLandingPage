@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+}
+h1{
+	float: left;
+	color: #c3c3a2;
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+#header-img{
+	width: 50px;
+	height: 50px;
+	float: left;
+  padding-left:15px;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+h2{
+	color: #0d0d0d;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+nav{
+	margin: 0;
+	background-color: #1f1f14; 
+	padding: 0px 25px 0px 25px;	
+    text-align: right;
+
+}
+li{
+	list-style: none;
+  display: inline-block;
+	padding: 25px;
+  
+}
+a {
+	color: #c3c3a2;
+	text-decoration: none;
+}
+a:hover {
+	color: #a5a573;
+
+}
+#westeros-coffee{
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 25px;
+}
+#bottom{
+	padding-left: 25px;
+}
+.container{
+	display: flex;
+	overflow: auto;
+}
+.menu-section{
+	background-color: #c8c3cc; 
+}
+.menu-img{
+	flex:1;
+	padding-left: 25px;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
+#video{
+	margin-top: 10px;
+	padding: 5px 25px 10px 25px;
+}
+.location-section{
+	width: 100%;
+	background-color: #563f46;
+}
+#locations-list{
+	list-style: none;
+	padding-bottom: 10px;
+}
+#locations-list >li > a {
+	color: #c3c3a2;
+	text-decoration: none;
+}
+#locations-list >li > a:hover {
+	color: #a5a573;
+}
+.JoinOurTeam-section{
+	background-color: #96897f;
+	min-width: 100%; 
+}
+#JoinOurTeam{
+	padding-left: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 10px;
+}
+img {
+	width:100%;
+}
+@media screen and (max-width: 400px){
+	img{
+		width: 50%;
+	}
+}
+
+
+
